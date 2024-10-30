@@ -1,0 +1,266 @@
+body {
+  overflow: hidden;
+  overflow-y: auto;
+  font-family: "Nunito Sans", Arial, sans-serif;
+}
+
+.main-blog {
+  position: relative;
+}
+.main-blog .navbar-brand {
+  color: #ffffff;
+  font-size: 2rem;
+}
+.main-blog .about-header {
+  display: flex;
+  align-items: center;
+}
+.main-blog .header-a {
+  font-size: 20px;
+  margin-left: 1px;
+  margin-right: 0px;
+}
+.main-blog .about-header h4 {
+  color: #d1002c;
+  margin-left: 1px;
+  padding-top: 5px;
+}
+.main-blog a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #808080;
+  font-weight: 400;
+}
+.main-blog h2 {
+  border-radius: 3px;
+  color: #d1002c;
+  padding-right: 5px;
+  font-size: 1.75rem;
+}
+.main-blog .nav-link {
+  color: #ffffff;
+  font-size: 1.25rem;
+}
+.main-blog .nav-link:hover {
+  color: #d1002c;
+}
+.main-blog .nav-item {
+  padding: 0 1.25rem;
+}
+.main-blog strong {
+  color: #d1002c;
+}
+.main-blog h1 {
+  color: #ffffff;
+  font-weight: 700;
+}
+.main-blog p {
+  color: #ffffff;
+}
+.main-blog img {
+  height: 600px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 90%, 70% 100%, 0 85%);
+          clip-path: polygon(0 0, 100% 0, 100% 90%, 70% 100%, 0 85%);
+}
+.main-blog .main-navbar-page {
+  background-color: #808080;
+}
+.main-blog span {
+  color: #ffffff;
+  padding: 1rem;
+}
+.main-blog .main-navbar-wrapp {
+  position: absolute;
+  top: 5%;
+  right: 10%;
+  width: 70%;
+  transform: translate(-10%, -10%);
+}
+.main-blog .Project-btn {
+  background-color: #d1002c;
+  color: #ffffff;
+  padding: 1rem;
+  text-decoration: none;
+}
+.main-blog .starting-info {
+  width: 30%;
+  position: absolute;
+  top: 70%;
+  left: 20%;
+  transform: translate(-20%, -40%);
+}
+.main-blog .info {
+  position: absolute;
+  width: 10%;
+  top: 40%;
+  right: 28%;
+  text-align: end;
+  transform: translate(100%, -40%);
+}
+
+.about-us {
+  margin-top: 5rem;
+  text-align: center;
+}
+.about-us img {
+  width: 40%;
+}
+.about-us .first-img {
+  margin-left: 5rem;
+}
+.about-us h1 {
+  text-transform: uppercase;
+  padding: 3rem 0;
+}
+.about-us h6 {
+  padding-top: 2rem;
+  font-family: verdana;
+}
+
+.main-seccond-page {
+  margin-top: 30px;
+}
+.main-seccond-page h1 {
+  text-transform: uppercase;
+  font-family: "Nunito Sans", Arial, sans-serif;
+  text-align: center;
+  font-weight: 600;
+  padding-bottom: 2rem;
+}
+.main-seccond-page img {
+  width: 100%;
+  height: 350px;
+}
+.main-seccond-page h3 {
+  font-weight: 400;
+  font-size: 1.25rem;
+}
+.main-seccond-page h5 {
+  font-size: 1rem;
+}
+.main-seccond-page p {
+  color: #808080;
+  font-size: 1.15rem;
+}
+.main-seccond-page .row {
+  padding: 1rem 0;
+}
+
+.main-third-para {
+  text-align: center;
+  margin: 2rem 0;
+}
+.main-third-para a {
+  text-decoration: none;
+  color: #000000;
+  font-size: 1.15rem;
+  border: 1px solid #808080;
+  width: 10px;
+  height: 10px;
+  line-height: 10px;
+  border-radius: 50%;
+  padding: 10px;
+  transition: background-color 1s;
+}
+.main-third-para .one {
+  background-color: #d1002c;
+}
+.main-third-para a:hover {
+  background-color: #d1002c;
+  color: #ffffff;
+}
+
+.main-footer-page {
+  -webkit-clip-path: polygon(0 0, 70% 15%, 100% 0, 100% 100%, 0 100%);
+          clip-path: polygon(0 0, 70% 15%, 100% 0, 100% 100%, 0 100%);
+}
+.main-footer-page h5 {
+  color: #ffffff;
+}
+.main-footer-page .row {
+  padding-top: 5rem;
+}
+.main-footer-page p {
+  color: #808080;
+}
+.main-footer-page .address {
+  padding-top: 5rem;
+}
+.main-footer-page .copy {
+  text-align: center;
+  padding: 5rem;
+  color: #ffffff;
+}
+.main-footer-page strong {
+  color: #d1002c;
+}
+
+@media (max-width: 767px) {
+  .main-seccond-wrapp .first-img {
+    margin-left: 0;
+  }
+  .main-blog h1 {
+    font-size: 2rem;
+    width: 100%;
+  }
+  .main-blog .starting-info {
+    width: 60%;
+    padding-top: 3rem;
+  }
+  .main-blog .info {
+    padding-top: 1rem;
+    position: absolute;
+    width: 50%;
+    top: 25%;
+    right: 90%;
+    text-align: start;
+  }
+  .main-blog .info p {
+    color: #808080;
+    padding-bottom: 1rem;
+  }
+  .main-blog h2 {
+    padding-left: 1rem;
+    border-right: none;
+  }
+  .main-blog p {
+    width: 100%;
+    font-size: 1rem;
+  }
+  .main-blog .Project-btn {
+    padding: 0.5rem;
+  }
+  .main-navbar-wrapp {
+    position: absolute;
+    top: 0%;
+    width: 100%;
+    padding: 8px 16px;
+    background-color: #000000;
+  }
+  .main-navbar-page {
+    background-color: #ffffff;
+    width: 100%;
+  }
+  .main-seccond-wrapp .text-right {
+    text-align: start;
+  }
+  .main-seccond-wrapp .person-id-2 {
+    margin-left: 0;
+  }
+  .main-fifth-wrapp .first-col {
+    margin-left: 0;
+  }
+  .main-fifth-wrapp .col-md-3 {
+    margin-top: 0;
+  }
+  .fourth-img h1 {
+    font-size: 1.5rem;
+    width: 80%;
+  }
+  .fourth-img p {
+    font-size: 1rem;
+    width: 95%;
+  }
+}/*# sourceMappingURL=Blog.css.map */

@@ -1,0 +1,231 @@
+body{
+    overflow: hidden;
+    overflow-y: auto;
+    font-family:"Nunito Sans", Arial, sans-serif;
+}
+.main-home{
+    position: relative;
+     .navbar-brand{
+        color: #ffffff;
+        font-size: 2rem;        
+     }
+     .about-header {
+        display: flex;
+        align-items: center;
+    }
+    a {
+        margin: 0 10px; 
+        text-decoration: none;
+        color: #808080;
+        font-weight: 400;
+    }
+    h2{         
+        border-radius: 3px;
+        color: #d1002c;
+        padding-right: 5px;
+        font-size: 1.75rem;
+    }
+    .header-a{
+        font-size: 20px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .about-header h4{
+       color:#d1002c;
+       margin-left: 1px;
+       padding-top: 5px;
+    }
+    .nav-link{
+        color: #ffffff;
+        font-size: 1.25rem;   
+    }
+    .nav-link:hover{
+        color:#d1002c;
+    }
+    .nav-item{
+        padding: 0 1.25rem;
+    }
+    strong{
+        color: #d1002c;
+    }
+    h1{
+        color:#ffffff;
+        font-weight: 700;
+    }
+    p{
+        color: #ffffff;
+    }
+    img{
+        height: 600px;
+        object-fit: cover;
+        clip-path: polygon(0 0, 100% 0, 100% 90%, 70% 100%, 0 85%);
+    }
+    .main-navbar-page{
+      background-color: #808080;
+    }
+    span{
+        color: #ffffff;
+        padding: 1rem;
+    }
+    .main-navbar-wrapp{
+        position: absolute;
+        top: 5%;
+        right: 10%;
+        width: 70%;
+        transform: translate(-10%,-10%);
+    }
+    .Project-btn{
+        background-color: #d1002c;
+        color: #ffffff;
+        padding: 1rem;
+        text-decoration: none;
+    }
+    .starting-info{
+        width: 30%;
+        position: absolute;
+        top: 70%;
+        left: 20%;
+        transform: translate(-20%,-40%);
+    }
+    .info{
+    position: absolute;
+    width: 10%;
+    top: 40%;
+    right: 28%;
+    text-align: end;
+    transform: translate(100%,-40%);
+    }
+}
+.about-us{
+       margin-top: 5rem;
+       text-align: center;
+    img{
+        width: 40%;   
+    }
+    .first-img{
+        margin-left: 5rem;
+    }
+    h1{
+        text-transform: uppercase;
+        padding: 3rem 0;
+    }
+    h6{
+        padding-top:2rem ;
+        font-family: verdana;
+    }
+}
+.main-third-page{
+    h1{
+        text-align: center;
+        text-transform: uppercase;
+        padding: 4rem 0;
+    }
+    h2{
+        font-family: "Nunito Sans", Arial, sans-serif;
+    }
+    h6{
+        font-weight: 400;
+    }
+    .text-right{
+        text-align: right;
+        margin-bottom: 2rem;
+    }
+   img{
+    width: 100%;
+    height: 550px;
+    object-fit: cover;
+   }
+   .image-2{
+    margin-top: 4rem;
+    width: 70%;
+   }
+   .persons{
+    margin-top: 6rem;
+   }
+   .person-id{
+    display: flex;
+    gap: 10px;
+    padding: 1rem 0;
+   }
+   .person-id-2{
+    margin-left: 18rem;
+   }
+   p{
+    width: 100%;
+    color: #808080;
+   }
+   a{
+    padding: .25rem 1rem;
+    text-transform: uppercase;
+    font-family: "Nunito Sans", Arial, sans-serif;
+    font-size: .75rem;
+    border: 1px solid #808080;
+    color: #808080;
+    text-decoration: none;
+   }
+}
+.image{
+    img{
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+    }
+}
+.main-third-para{
+    text-align: center;
+    margin: 2rem 0;
+    a{
+        text-decoration: none;
+        color: #000000;
+        font-size: 1.15rem;
+        border: 1px solid #808080;
+        width: 10px;
+        height: 10px;
+        line-height: 10px;
+        border-radius: 50%;
+        padding: 0.8rem;
+        transition: background-color 1s;
+    }
+    .one{
+        background-color: #d1002c;
+        color: #ffffff;
+        padding: 0.8rem;
+        margin-left: 3px;
+    }
+    a:hover{
+        background-color: #d1002c;
+        color: #ffffff;
+    }
+}
+.main-footer-page{
+    clip-path: polygon(0 0,70% 15%, 100% 0, 100% 100%, 0 100%);
+  h5{
+      color: #ffffff;
+  }
+  .row{
+      padding-top: 5rem;
+  }
+  p{
+      color: #808080;
+  }
+  .address{
+      padding-top: 5rem;
+  }
+  .copy{
+      text-align: center;
+      padding: 5rem;
+      color: #ffffff;
+  }
+  strong{
+      color: #d1002c;
+  }
+}
+@media (max-width: 767px) {
+    .main-third-page .text-right {
+        text-align: start;
+      }
+      .main-third-page .person-id-2 {
+        margin-left: 0;
+      }
+}
+
